@@ -1,0 +1,20 @@
+languageCode = "en-us"
+title = "Lista Noc"
+
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = true
+baseurl = "http://lalistanoc.com/"
+canonifyURLs = true
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir = "themes"
+theme = "hugo-creative-portfolio-theme"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "La Lista Noc"
+  author = "sr erisso"
