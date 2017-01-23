@@ -1,9 +1,9 @@
 <div>
-	<img src="">
+	<h1>{{ .Title }}</h1>
 </div>
 
 <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-	<h2>Se estrena el xx/xx/2017</h2>
+	<h2>Se estrena el fecha-de-estreno</h2>
 
 	<h2>Sinopsis</h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -13,3 +13,15 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
 </div>
+
+{{if .PrevInSection}} 
+	<a href="{{.PrevInSection.Permalink}}">Previous movie</a> 
+{{ else }}
+	<a href="/">List of movies</a>
+{{end}}
+
+{{if .NextInSection}} 
+	<a href="{{.NextInSection.Permalink}}">Next movie</a> 
+{{ else }}
+	<a href="/">List of movies</a>
+{{end}}
