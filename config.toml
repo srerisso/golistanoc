@@ -22,24 +22,10 @@ theme = "hugo-creative-portfolio-theme"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "green"
-  copyright = "&copy;2016 Your name or company"
+  copyright = "&copy;2016 sr erisso"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "La lista de películas de 2017."
   ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "you@yoursite.com"
 
   # Nav links in the side bar
   [[params.navlinks]]
@@ -49,10 +35,6 @@ theme = "hugo-creative-portfolio-theme"
   [[params.navlinks]]
   name = "About"
   url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
 
   [params.social]
   facebook      = "full page or profile url in facebook"
