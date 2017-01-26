@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+  <head>
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+    <link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    {{ block "main" . }}
+
+  </body>
+</html>
