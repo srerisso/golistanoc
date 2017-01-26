@@ -1,26 +1,25 @@
 +++
-draft = false
-publishdate = ""
+date = "2017-01-26T16:38:51+01:00"
 tags = []
 title = ""
-date = "2017-01-24T22:07:21+01:00"
+draft = true
+publishdate = ""
 
 [amp]
   elements = []
 
 [image]
-  licenseLink = ""
   license = ""
   link = ""
   author = ""
   title = ""
   src = ""
+  licenseLink = ""
 
 [sitemap]
-  changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+  changefreq = "monthly"
 
 +++
 
- # This is an article example
