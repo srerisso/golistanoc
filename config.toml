@@ -12,7 +12,4 @@ theme = "hugo-listing"
   tag = "tags"
 
   description = "Lista NOC"
-  author = "sr erisso"
-
-[params]
-    
+  author = "sr erisso"   

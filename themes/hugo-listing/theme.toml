@@ -11,8 +11,8 @@ features = ["", ""]
 min_version = 0.18
 
 [author]
-  name = ""
-  homepage = ""
+  name = "hugo-listing"
+  homepage = "sr erisso"
 
 # If porting an existing theme
 [original]
